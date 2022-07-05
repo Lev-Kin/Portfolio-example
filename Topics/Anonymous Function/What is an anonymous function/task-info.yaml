@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: const getData = function(){…};
+- text: (function getData(){…)}());
+- text: function getData(){…};
+- text: (function(){…}());
+- text: const getData = function getData(){…};
+files:
+- name: main.js
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10866#comment
+status: Solved
+record: -1
+custom_name: What is an anonymous function?

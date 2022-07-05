@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav>
+        <div id="title">
+            <h1 id="first-portfolio">Cheese: Portfolio Website</h1>
+        </div>
+        <div id="nav-links">
+            <div id="about-link-div">
+                <a id="about-link" href="#about">About</a>
+            </div>
+            <div id="portfolio-link-div">
+                <a id="portfolio-link" href="#portfolio">Portfolio</a>
+            </div>
+            <div id="contact-link-div">
+                <a id="contact-link" href="#contacts">Contacts</a>
+            </div>
+        </div>
+        <div id="hamburger-icon">
+            <i class="material-icons sidebar-toggle">menu</i>
+        </div>
+        <div id="hamburger-menu" class="none hamburger">
+            <br>
+            <div>
+                <i class="material-icons sidebar-close">close</i>
+            </div>
+            <br>
+            <a id="about-link-mobile" href="#about">About</a>
+            <br>
+            <br>
+            <a id="portfolio-link-mobile" href="#portfolio">Portfolio</a>
+            <br>
+            <br>
+            <a id="contact-link-mobile" href="#contacts">Contacts</a>
+        </div>
+    </nav>
+</header>
+<div id="background">
+    <h1 id="main-title">Cheese, Software Developer and Front End Developer</h1>
+</div>
+<section id="about">
+    <h2>About</h2>
+    <div id="about-image">
+        <img alt="a picture of a woman" src="resources/person.jpeg">
+    </div>
+    <p>Hi, I'm Somebody! I like to program things in Python, and sometimes make websites in HTML, CSS, and JS. I have
+        skills in Python, JS, HTML, CSS, Ruby, SQL, and some knowledge of PHP and VBA. </p>
+</section>
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <img width="300px"
+         src="resources/project1.png"
+         alt="picture of website with interactive piano">
+    <p>Interactive Piano</p>
+    <div id="button-div">
+        <button class="open-window">More information</button>
+    </div>
+    <div class="window none">
+        <h1>Interactive Piano</h1>
+        <br>
+        <p>I cannot be bothered to write anything here so yeah</p>
+        <br><br><br>
+        <button class="close-window">Close Window</button>
+    </div>
+</section>
+<section id="contacts">
+    <p>You can contact me at portfolio@example.com</p>
+</section>
+<footer>
+    <br>
+    <p>Portfolio<br>
+        2020</p>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>

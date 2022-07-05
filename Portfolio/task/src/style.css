@@ -1,0 +1,231 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: red;
+}
+
+nav {
+    display: flex;
+    background: linear-gradient(90deg, rgba(53, 27, 30, 1) 0%, rgba(32, 14, 14, 1) 70%, rgba(23, 14, 15, 1) 100%);
+    height: 75px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#nav-links {
+    width: 300px;
+    display: flex;
+    margin-right: 35px;
+    height: 100%;
+    align-items: center;
+}
+
+#about-link-div {
+    height: 100%;
+    display: flex;
+}
+
+#about-link {
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    align-self: center;
+    padding: 10px;
+}
+
+#about-link-div:hover {
+    background-color: #42292b;
+}
+
+#portfolio-link-div {
+    display: flex;
+    height: 100%;
+}
+
+#portfolio-link {
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    align-self: center;
+    padding: 15px;
+}
+
+#portfolio-link-div:hover {
+    background-color: #42292b;
+}
+
+#contact-link-div {
+    display: flex;
+    height: 100%;
+}
+
+#contact-link {
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    align-self: center;
+    padding: 15px;
+}
+
+#title {
+    justify-self: left;
+    margin-left: 35px;
+    flex-grow: 2;
+}
+
+#first-portfolio {
+    font-family: "Poppins", sans-serif;
+    color: #f1c56e;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+#background {
+    background-image: url("resources/bg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 57vw;
+}
+
+#main-title {
+    font-family: "Poppins", sans-serif;
+    max-width: 400px;
+    color: floralwhite;
+    font-weight: lighter;
+    padding: 75px;
+    opacity: 75%;
+}
+
+#about {
+    margin-top: -30px;
+    background-color: #CBD0D3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    border-bottom: 5px solid grey;
+}
+
+[alt="a picture of a woman"] {
+    position: relative;
+    width: 200px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+[id="about"] h2 {
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+}
+
+[id="about"] p {
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    align-self: center;
+}
+
+#portfolio {
+    background-color: #CBD0D3;
+}
+
+#portfolio h2 {
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+}
+
+#portfolio img {
+    margin-left: 50px;
+}
+
+#portfolio p {
+    margin-left: 130px;
+    padding: 5px;
+    font-family: "Poppins", sans-serif;
+}
+
+footer {
+    background: red;
+    height: 75px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+.open-window {
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#button-div {
+    width: 160px;
+    margin-left: 127px;
+}
+
+.none {
+    display: none;
+}
+
+.window {
+    width: 100rem;
+    height: 100rem;
+    z-index: 10;
+    position: absolute;
+    background-color: lightsalmon;
+    top: 0;
+    left: 0;
+}
+
+.material-icons {
+    color: orangered;
+}
+
+#hamburger-icon {
+    margin-right: 50px;
+    display: none;
+}
+
+@media only screen and (max-width: 650px) {
+    #hamburger-icon {
+        display: block;
+    }
+
+    #nav-links {
+        display: none;
+    }
+}
+
+#about-link-mobile {
+    color: black;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    padding: 15px;
+}
+
+#portfolio-link-mobile {
+    color: black;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    padding: 15px;
+}
+
+#contact-link-mobile {
+    color: black;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    padding: 15px;
+}
+
+#hamburger-menu {
+    position: absolute;
+    width: 110px;
+    top: 0;
+    right: 0;
+    background-color: white;
+    height: 100%;
+}

@@ -1,0 +1,29 @@
+content:
+- setTimeout and setInterval
+- Anonymous Function
+- Arrow Functions
+- Array iterating
+- Increment and Decrement
+- For Loops
+- While Loops
+- Basic string methods
+- Object methods and keyword  this
+- Array searching
+- Array transforming
+- Naming variables
+- Introduction to String
+- String Compare
+- String transforming
+- Introduction to Regexp
+- Comments
+- Introduction to Promises
+- ' then ,  catch  and  finally  methods'
+- Function constructor
+- Async await
+- Object iterator
+- String searching
+- ForEach method
+- Array reducing
+- Array slicing
+- Array sorting
+- Event Loop
